@@ -5,11 +5,11 @@ from setuptools import setup
 setup(
 
     name="PyTumblr",
-    version="0.0.6",
+    version="0.0.6-alpha",
     description="A Python API v2 wrapper for Tumblr",
-    author="John Bunting",
-    author_email="johnb@tumblr.com",
-    url="https://github.com/tumblr/pytumblr",
+    author="Yannick PELTIER",
+    author_email="",
+    url="https://github.com/yannick60/pytumblr",
     packages = ['pytumblr'],
     license = "LICENSE",
 
