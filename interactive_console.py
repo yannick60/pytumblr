@@ -17,9 +17,9 @@ def new_oauth(yaml_path):
     consumer_key = raw_input('Paste the consumer key here: ')
     consumer_secret = raw_input('Paste the consumer secret here: ')
 
-    request_token_url = 'https://www.tumblr.com/oauth/request_token'
-    authorize_url = 'https://www.tumblr.com/oauth/authorize'
-    access_token_url = 'https://www.tumblr.com/oauth/access_token'
+    request_token_url = 'http://www.tumblr.com/oauth/request_token'
+    authorize_url = 'http://www.tumblr.com/oauth/authorize'
+    access_token_url = 'http://www.tumblr.com/oauth/access_token'
 
     consumer = oauth.Consumer(consumer_key, consumer_secret)
     client = oauth.Client(consumer)
